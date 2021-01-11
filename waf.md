@@ -15,9 +15,3 @@
 ### `alert(1)`
 * `eval(8680438..toString(30))(1)`
 * `Function(/ALERT(1)/.source.toLowerCase())()`
-
-## SSRF
-Use these tools to bypass internal hostnames
-* [nip.io](http://nip.io)
-* [xip.io](http://xip.io/)
-* [Welcome to sslip.io](https://sslip.io/)
