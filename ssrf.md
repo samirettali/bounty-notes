@@ -45,5 +45,5 @@ Try different encodings:
 * Remove spaces `0177000000000001`
 * Mix them `0177.0.0.0x1`
 * `http://31.10.590` converts to [`http://31.10.2.78/`] because (2\*256)+78
-* Convert the IP address to binary representation like `01111111.00000000.00000000.00000001` and after removing the dots convert the number in decimal and you get [`http://2130706433`](http://127.0.0.1/)
+* Convert the IP address to binary representation like `01111111.00000000.00000000.00000001` and after removing the dots convert the number in decimal and you get `2130706433`
 * Add zeroes `http://127.0.0000000.1/`
