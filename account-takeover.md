@@ -1,5 +1,12 @@
 # Account takeover
 
+## Registration
+Try to register a new user by appending or prepending spaces or changing casing to
+the username/email, example `johndoe` -> ` johndoe` or `johndoe` -> `jOhNDoe`
+
+## Login
+Same thing as with registration
+
 ## Email verification
 * Signup with your email
 * Open email verification link
