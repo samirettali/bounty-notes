@@ -10,3 +10,10 @@
 ## XSS
 * If `<script>` is deleted try `<scr<script>ipt>`
 * Bypass any word with: `eval(location.hash.slice(1))` and append `#alert(1)` to the URL
+* Transform javascript in symols with [JSFuck](http://www.jsfuck.com/)
+
+## SSRF
+Use these tools to bypass internal hostnames
+* [nip.io](http://nip.io)
+* [xip.io](http://xip.io/)
+* [Welcome to sslip.io](https://sslip.io/)
