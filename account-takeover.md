@@ -13,6 +13,12 @@
 * Intercept the reset password request
 * Replace your email with another one
 
+## 2FA
+* Login with your account
+* Server ask you for a token
+* Intercept the request with your token
+* Replace your mail with another one
+
 ## Parameter pollution
 Try to add a second parameter to a reset password request to test the server
 validation:
