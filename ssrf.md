@@ -9,7 +9,7 @@ If you have SSRF, test for RCE with this payload:
 ```
 
 ## Trigger error
-* Add `#` while testing for SSRF in order to trigger errors and maybe read stacktraces
+* Use `#` as url when testing for SSRF in order to trigger errors and maybe read stacktraces
 
 ## Blacklist bypass
 * Pass URL encoded parameters in order to achieve parameter injection
@@ -29,16 +29,15 @@ Make a request to a page that you control with the following code:
 ```php
 <?php header("location: http://127.0.0.1"); ?>
 ```
+
 ### DNS
-* Use these tools to bypass internal hostnames
+Use these tools to bypass internal hostnames
 	* [nip.io](http://nip.io)
 	* [xip.io](http://xip.io/)
   * [1u.ms](http://1u.ms/)
 	* [sslip.io](https://sslip.io/)
 
 ### Encoding
-Try different encodings:
-
 * Hex `0x7f.0x0.0x0.0x1`
 * Octal `0177.0.0.01`
 * Url `http://%31%32%37%2e%30%2e%30%2e%31`
