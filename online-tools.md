@@ -20,6 +20,7 @@
 ### POC builders
 * [Post message](https://tools.honoki.net/postmessage.html)
 * [CORS misconfiguration](https://tools.honoki.net/cors.html)
+* [BugPoc](https://bugpoc.com)
 
 ## Regex
 * [regex101](https://regex101.com)
