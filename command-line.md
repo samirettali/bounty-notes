@@ -6,6 +6,11 @@
 my recon automated scripts in a really clean way, without using ugly hacks like
 temporary files.
 
+## Merge two lists (does not remove duplicates)
+
+```
+$ combine domains.txt or newdomains.txt
+```
 
 ## Sort and filter a list in place
 
@@ -13,19 +18,13 @@ temporary files.
 $ cat domains.txt | sort -u | grep -v filter | sponge domains.txt
 ```
 
-## Merge two files removing duplicates
-
-```
-$ combine domains.txt or newdomains.txt
-```
-
-## Get lines that are in both files
+## Print lines that are in both files
 
 ```
 $ combine domains.txt and newdomains.txt
 ```
 
-## Get lines that are only in `newdomains.txt`
+## Print lines that are only in `newdomains.txt`
 
 ```
 $ combine newdomains.txt not domains.txt
@@ -55,8 +54,7 @@ $ subfinder -d example.com | combine - not domains.txt | tee -a new.txt | ifne .
 
 ## Manually filter domains between pipes
 
-Let's say you want to run you usual recon routine, but before dns resolution you want to filter out
-some domains manually.
+Let's say you want to run you usual recon routine, but before dns resolution you want to filter out some domains manually.
 
 Just pipe the domains in `vipe`, it will open them in your editor, allowing you do filter the one you want and pass them along:
 
