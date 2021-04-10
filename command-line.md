@@ -2,15 +2,7 @@
 
 ## moreutils
 
-`moreutils` is a collection of great command line tools that allows me to write
-my recon automated scripts in a really clean way, without using ugly hacks like
-temporary files.
-
-## Merge two lists (does not remove duplicates)
-
-```
-$ combine domains.txt or newdomains.txt
-```
+`moreutils` is a collection of great command line tools that allows me to write my recon automated scripts in a really clean way, without using ugly hacks like temporary files.
 
 ## Sort and filter a list in place
 
@@ -18,7 +10,7 @@ $ combine domains.txt or newdomains.txt
 $ cat domains.txt | sort -u | grep -v filter | sponge domains.txt
 ```
 
-## Print lines that are in both files
+## Print only lines that are in both files
 
 ```
 $ combine domains.txt and newdomains.txt
@@ -30,7 +22,7 @@ $ combine domains.txt and newdomains.txt
 $ combine newdomains.txt not domains.txt
 ```
 
-## Get lines that are only in one of the two files
+## Print lines that are either in file1.txt or in file2.txt, not in both
 
 ```
 $ combine file1.txt xor file2.txt
@@ -54,7 +46,7 @@ $ subfinder -d example.com | combine - not domains.txt | tee -a new.txt | ifne .
 
 ## Manually filter domains between pipes
 
-Let's say you want to run you usual recon routine, but before dns resolution you want to filter out some domains manually.
+Let's say you want to run you usual recon routine, but before DNS resolution you want to filter out some domains manually.
 
 Just pipe the domains in `vipe`, it will open them in your editor, allowing you do filter the one you want and pass them along:
 

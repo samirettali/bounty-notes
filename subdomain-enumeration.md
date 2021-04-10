@@ -1,5 +1,7 @@
 # Subdomain enumeration
 
+* Search for copyright strings on Google to find domains
+
 ## Virtual host
 When a subdomain is not resolved, try using it as a virtual host with the main
 domain
