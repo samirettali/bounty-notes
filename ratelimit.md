@@ -32,4 +32,8 @@ X-Host: 127.0.0.1
 X-Originating-IP: 127.0.0.1
 X-Remote-Addr: 127.0.0.1
 X-Remote-IP: 127.0.0.1
+X-Original-Url: 127.0.0.1
+X-Custom-IP-Authorization: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Rewrite-URL: 127.0.0.1
 ```

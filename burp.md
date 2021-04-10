@@ -1,5 +1,10 @@
 # Burp
 
+## Tips
+* Use `Ctrl + space` to send a request in the repeater, which is way faster
+    than clicking send and clicking back in the same point which you are
+    modifying
+
 ## Extensions
 * [403 bypasser](https://github.com/sting8k/BurpSuite_403Bypasser)
 * [Add Custom Header](https://portswigger.net/bappstore/807907f5380c4cb38748ef4fc1d8cdbc): Add or change headers automatically based on rules
